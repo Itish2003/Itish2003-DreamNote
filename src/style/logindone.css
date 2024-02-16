@@ -1,0 +1,23 @@
+.login-done{
+    display:flex;
+    justify-content:center;
+    flex-flow:column nowrap;
+    text-align:center;
+    align-items: center;
+    color:black;
+    font-size:50px;
+    height:100vh;
+}
+
+.small{
+    margin-top:40px;
+    font-size:20px;
+    border-bottom:2px black solid;
+}
+
+button{
+    border:none;
+    border-bottom:2px black solid;
+    font-size:10px;
+    background-color:white;
+}

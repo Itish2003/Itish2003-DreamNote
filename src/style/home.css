@@ -1,0 +1,6 @@
+.home{
+    display:flex;
+    flex-flow:column nowrap;
+    height:98.6vh;
+    border:2px red solid;
+}

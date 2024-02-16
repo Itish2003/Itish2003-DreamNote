@@ -1,0 +1,52 @@
+.header{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border:2px red solid;
+    font-size:30px;
+    height:23vh;
+}
+
+.title{
+    color:black;
+    border:2px red solid;
+    font-size:60px;
+}
+
+.bar{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items: center;
+    border:2px red solid;
+}
+
+.about-style{
+    background: rgb(217, 201, 254);
+    color:black;
+    margin-right:30px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.login-style{
+    background: rgb(217, 201, 254);
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.signup-style{
+    background: rgb(217, 201, 254);
+    margin-right:30px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.github-style{
+    padding-left:10px;
+    padding-right:10px;
+    background: rgb(217, 201, 254);
+    color:black;
+    margin-right:30px;
+}

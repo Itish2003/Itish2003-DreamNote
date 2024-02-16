@@ -1,0 +1,134 @@
+.middle{
+    display:flex;
+    flex-flow:row nowrap;
+    /* justify-content: space-between; */
+    align-items: center;
+    color:black;
+    border:2px red solid;
+    height:80vh;
+}
+
+#container{
+    width:fit-content;
+    height:70vh;
+    display:flex;
+    flex-flow:column wrap;
+    padding:5px;
+    justify-content: space-evenly;
+}
+
+.side-bar{
+    font-size:30px;
+    display:flex;
+    flex-flow:column nowrap;
+    align-items: center;
+    justify-content: left;
+    height:80vh;
+    min-width:5vw;
+    max-width:15vw;
+    margin-right:40px;
+}
+
+#menu-button {
+    cursor: pointer;
+    padding: 10px;
+    /* background-color: #f0f0f0;
+    border: 1px solid #ccc; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:5px;
+    background: rgb(230, 230, 230);
+}
+
+.menu-line {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+    border:none;
+}
+
+.mr{
+    margin-bottom:0;
+}
+
+.blog-content-one{
+    font-size:30px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-evenly;
+    max-width:210vh;
+    margin-bottom:15px;
+}
+
+.blog-content-two{
+    font-size:30px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-evenly;
+    max-width:210vh;
+}
+
+.blog-one{
+    display:flex;
+    flex-flow:column nowrap;
+    margin-right:25px;
+    width:20vw;
+    height:25vh;
+}
+
+.blog-img{
+    height:80%;
+    background: rgb(230, 230, 230);
+}
+
+.title-img{
+    font-size:20px;
+    background: rgb(177, 140, 254);
+}
+
+.blog-two{
+    margin-right:25px;
+    width:20vw;
+    height:25vh;
+}
+
+.blog-three{
+    margin-right:25px;
+    width:20vw;
+    height:25vh;
+}
+
+.blog-four{
+    width:20vw;
+    height:25vh;
+    
+}
+
+.blog-five{
+    margin-right:25px;
+    width:20vw;
+    height:25vh;
+}
+
+.blog-six{
+    margin-right:25px;
+    width:20vw;
+    height:25vh;
+}
+
+.blog-seven{
+    margin-right:25px;
+    width:20vw;
+    height:25vh;
+}
+
+.blog-eight{
+    width:20vw;
+    height:25vh;
+}
+
+div{
+    border:2px red solid;
+}

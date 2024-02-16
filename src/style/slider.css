@@ -1,0 +1,41 @@
+/* Slider.css */
+.slider {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: right;
+    position: absolute;
+    top: 103px;
+    left: -100%;
+    width: 15%;
+    height: 81vh;
+    background-color: #f0e8e8;
+    transition: left 0.5s ease;
+    /* z-index: 103; */
+}
+
+.slider.open {
+    left: 2px;
+    border-radius:5px;
+    border:2px red solid;
+    /* Slide in when the 'open' class is present */
+}
+
+.slider-content{
+    font-size:15px;
+    padding-left:5px;
+}
+
+.toggle-button {
+    background-color: #5cb0e8;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.toggle-button:hover {
+    background-color: #2980b9;
+    /* Change to a darker shade for the hover effect */
+}
