@@ -2,7 +2,6 @@
 .slider {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: right;
     position: absolute;
     top: 103px;
     left: -100%;
@@ -10,19 +9,24 @@
     height: 81vh;
     background-color: #f0e8e8;
     transition: left 0.5s ease;
-    /* z-index: 103; */
 }
 
 .slider.open {
+    display: flex;
+    flex-flow: column nowrap;
     left: 2px;
-    border-radius:5px;
-    border:2px red solid;
-    /* Slide in when the 'open' class is present */
+    border-radius: 5px;
+    border: 2px red solid;
+    height: 81vh;
+    width: 15%;
 }
 
-.slider-content{
-    font-size:15px;
-    padding-left:5px;
+.slider-content {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    font-size: 15px;
+    height: 80vh;
 }
 
 .toggle-button {
@@ -32,10 +36,61 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 20px;
+    height: 15vh;
 }
 
 .toggle-button:hover {
     background-color: #2980b9;
-    /* Change to a darker shade for the hover effect */
 }
+
+.circular-container {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #000;
+}
+
+.circular-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.margin {
+    margin-top: 15px;
+}
+
+.margin-more {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #f0e8e8;
+    font-size: 20px;
+    text-decoration: none;
+    border: 0;
+    padding: 10px;
+}
+
+.border {
+    padding: 10px 10px;
+    border: 2px red solid;
+}
+
+.email-button {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+
+
+
+
